@@ -1,0 +1,148 @@
+body {
+  background-color: #55efc4;
+  color: #666;
+}
+
+.splash-background {
+    background-image: url(../assets/code-background.jpg);
+    background-size: cover;
+    height: 900px;
+}
+
+.code-intro-container {
+  position: relative;
+  bottom: 50px;
+  padding-bottom: 100px;
+}
+
+.small-intro {
+  display: none;
+}
+
+.headshot {
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.white {
+  background-color: white;
+}
+
+.space {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.skills {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.skills-head {
+  margin-bottom: 50px;
+}
+
+.skills b {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+i {
+  font-size: 50px;
+  display: block;
+  margin-top: 30px;
+}
+
+.object {
+  /* background-color: #eee; */
+  padding-top: 20px;
+  background-color: rgb(100,100,100);
+  background-color: rgba(0,0,0, 0.7);
+  margin: 0;
+}
+
+pre {
+  font-size: 20px;
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.project-site, .project-github {
+  display:none;
+}
+
+.project-img {
+  margin: 30px 40px 30px 40px;
+}
+
+.project-img:hover .img-thumbnail {
+  -webkit-filter: brightness(70%);
+  -moz-filter: brightness(70%);
+  -o-filter: brightness(70%);
+  -ms-filter: brightness(70%);
+  filter: brightness(70%);
+}
+
+.project-img:hover .project-link {
+  -webkit-filter: brightness(100%);
+  -moz-filter: brightness(100%);
+  -o-filter: brightness(100%);
+  -ms-filter: brightness(100%);
+  filter: brightness(100%);
+  display: inline;
+  color: white;
+  text-decoration: none;
+}
+
+.project-img:hover .project-site {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+.project-img:hover .project-github {
+  position: absolute;
+  top: 190px;
+  right: 200px;
+}
+
+.fa-3 {
+  font-size: 30px;
+  display: inline;
+  margin-right: 10px;
+}
+
+.fa-5 {
+  font-size: 40px;
+  display: inline;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.project-description {
+  margin: 150px 100px 0 50px;
+  font-size: 20px;
+}
+
+.site-links {
+  width: 210px;
+  margin: 40px 30px 0 30px;
+  background-color: rgb(100,100,100);
+  background-color: rgba(0,0,0,.5);
+  border: 0 solid black;
+  border-radius: 10px;
+}
+
+.site-links a {
+  color: white;
+  text-decoration: none;
+}
